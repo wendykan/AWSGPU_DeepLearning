@@ -15,6 +15,7 @@ wget https://www.kaggle.com/c/facial-keypoints-detection/download/training.zip
 wget https://www.kaggle.com/c/facial-keypoints-detection/download/test.zip
 wget https://www.kaggle.com/c/facial-keypoints-detection/download/SampleSubmission.csv
 wget https://www.kaggle.com/c/facial-keypoints-detection/download/IdLookupTable.csv
+sudo apt-get install unzip
 unzip training.zip
 unzip test.zip
  
