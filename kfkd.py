@@ -6,8 +6,8 @@ from pandas.io.parsers import read_csv
 from sklearn.utils import shuffle
 
 
-FTRAIN = '~/data/kaggle-facial-keypoint-detection/training-cleaned.csv'
-FTEST = '~/data/kaggle-facial-keypoint-detection/test.csv'
+FTRAIN = '~/data/training.csv'
+FTEST = '~/data/test.csv'
 
 
 def load(test=False, cols=None):
