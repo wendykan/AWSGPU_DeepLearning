@@ -8,7 +8,9 @@ sudo pip install --upgrade theano
 sudo pip install -r https://raw.githubusercontent.com/dnouri/kfkd-tutorial/master/requirements.txt
 sudo pip install -r https://raw.githubusercontent.com/dnouri/kfkd-tutorial/master/requirements-2.txt
  
-# start running things here
+# download data files and save them under /data
+mkdir data
+cd data
 wget https://www.kaggle.com/c/facial-keypoints-detection/download/training.zip
 wget https://www.kaggle.com/c/facial-keypoints-detection/download/test.zip
 wget https://www.kaggle.com/c/facial-keypoints-detection/download/SampleSubmission.csv
@@ -16,3 +18,4 @@ wget https://www.kaggle.com/c/facial-keypoints-detection/download/IdLookupTable.
 unzip training.zip
 unzip test.zip
  
+# run step 1
