@@ -15,7 +15,8 @@ wget -x --load-cookies cookies.txt https://www.kaggle.com/c/facial-keypoints-det
 wget -x --load-cookies cookies.txt https://www.kaggle.com/c/facial-keypoints-detection/download/test.zip
 wget -x --load-cookies cookies.txt https://www.kaggle.com/c/facial-keypoints-detection/download/SampleSubmission.csv
 wget -x --load-cookies cookies.txt https://www.kaggle.com/c/facial-keypoints-detection/download/IdLookupTable.csv
-sudo apt-get install unzipunzip training.zip
+sudo apt-get install unzip
+unzip training.zip
 unzip test.zip
  
 # run step 1
