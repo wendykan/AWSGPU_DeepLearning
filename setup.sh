@@ -11,11 +11,7 @@ sudo pip install -r https://raw.githubusercontent.com/dnouri/kfkd-tutorial/maste
 # download data files and save them under /data
 mkdir data
 cd data
-wget https://www.kaggle.com/c/facial-keypoints-detection/download/training.zip
-wget https://www.kaggle.com/c/facial-keypoints-detection/download/test.zip
-wget https://www.kaggle.com/c/facial-keypoints-detection/download/SampleSubmission.csv
-wget https://www.kaggle.com/c/facial-keypoints-detection/download/IdLookupTable.csv
-sudo apt-get install unzip
+wget -x --load-cookies cookies.txt https://www.kaggle.com/c/facial-keypoints-detection/data
 unzip training.zip
 unzip test.zip
  
