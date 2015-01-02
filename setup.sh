@@ -24,3 +24,4 @@ unzip test.zip
 
 # run step 1
 cd ~
+sudo chmod -R 777 .theano/
