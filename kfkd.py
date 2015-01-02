@@ -6,8 +6,8 @@ from pandas.io.parsers import read_csv
 from sklearn.utils import shuffle
 
 
-FTRAIN = '/Users/wendy/Documents/comps/facial_keypoints/data/training.csv'
-FTEST = '/Users/wendy/Documents/comps/facial_keypoints/data/test.csv'
+FTRAIN = '~/data/training.csv'
+FTEST = '~/data/test.csv'
 
 
 def load(test=False, cols=None):
