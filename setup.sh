@@ -9,6 +9,16 @@ sudo pip install --upgrade theano
 sudo pip install -r https://raw.githubusercontent.com/dnouri/kfkd-tutorial/master/requirements.txt
 sudo pip install -r https://raw.githubusercontent.com/dnouri/kfkd-tutorial/master/requirements-2.txt
  
+# setup theano
+cat <<EOF >~/.theanorc
+[global]
+floatX = float32
+device = gpu0
+[nvcc]
+fastmath = True
+EOF
+
+
 # download data files and save them under /data
 mkdir data
 cd data
