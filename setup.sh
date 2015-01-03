@@ -9,15 +9,25 @@ sudo pip install --upgrade git+git://github.com/Theano/Theano.git
 sudo pip install --upgrade theano
 sudo pip install -r https://raw.githubusercontent.com/dnouri/kfkd-tutorial/master/requirements.txt
 sudo pip install -r https://raw.githubusercontent.com/dnouri/kfkd-tutorial/master/requirements-2.txt
- 
+
+# setup GPU and CUDA
+#sudo wget http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1404/x86_64/cuda-repo-ubuntu1404_6.5-14_amd64.deb
+#sudo dpkg -i cuda-repo-ubuntu1404_6.5-14_amd64.deb
+#sudo apt-get update
+#sudo apt-get install -y cuda # this takes a while
+#echo -e "\nexport PATH=/usr/local/cuda-6.5/bin:$PATH\n\nexport LD_LIBRARY_PATH=/usr/local/cuda-6.5/lib64" >> .bashrc
+#sudo reboot
+
+
+
 # setup theano
-cat <<EOF >~/.theanorc
-[global]
-floatX = float32
-device = gpu0
-[nvcc]
-fastmath = True
-EOF
+#cat <<EOF >~/.theanorc
+#[global]
+#floatX = float32
+#device = gpu0
+#[nvcc]
+#fastmath = True
+#EOF
 
 
 # download data files and save them under /data
