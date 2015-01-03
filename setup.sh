@@ -43,6 +43,4 @@ unzip training.zip
 unzip test.zip
 rm -rf www.kaggle.com/
 
-# run step 1
 cd ~
-sudo chmod -R 777 .theano/
