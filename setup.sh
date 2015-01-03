@@ -41,7 +41,7 @@ mv www.kaggle.com/c/facial-keypoints-detection/download/* .
 sudo apt-get install unzip
 unzip training.zip
 unzip test.zip
- 
+rm -rf www.kaggle.com/
 
 # run step 1
 cd ~
