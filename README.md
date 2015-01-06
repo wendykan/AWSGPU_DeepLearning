@@ -5,7 +5,8 @@ Code to setup AWS GPU instance to run Daniel Nouri's Facial Keypoints competitio
 
 
 1. start a AWS GPU instance
- - I used Ubuntu Server 14.04 LTS (HVM), SSD Volume Type 
+ - I used Ubuntu Server 14.04 LTS (HVM), SSD Volume Type
+ - Search "community AMI's" for ```ami-1f3e225a```
  - And for GPU instance I used GPU instances g2.2xlarge
 2. ssh into the server
 3. ```sudo apt-get install git```
