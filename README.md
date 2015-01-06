@@ -9,10 +9,9 @@ Code to setup AWS GPU instance to run Daniel Nouri's Facial Keypoints competitio
  - Search "community AMI's" for ```ami-1f3e225a```
  - And for GPU instance I used GPU instances g2.2xlarge
 2. ssh into the server
-3. ```sudo apt-get install git```
-4. ```git clone https://github.com/wendykan/AWSGPU_DeepLearning.git```
-5. ```chmod 777 -R AWSGPU_DeepLearning/```
-6. ```vi cookies.txt```
+3. ```git clone https://github.com/wendykan/AWSGPU_DeepLearning.git```
+4. ```chmod 777 -R AWSGPU_DeepLearning/```
+5. ```vi cookies.txt```
   - Then copy-paste kaggle cookie into this file
-7. ```./AWSGPU_DeepLearning/setup.sh ```
-8. ```python AWSGPU_DeepLearning/kfkd.py```
+6. ```./AWSGPU_DeepLearning/setup.sh ```
+7. ```python AWSGPU_DeepLearning/kfkd.py```
