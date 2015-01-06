@@ -1,7 +1,7 @@
 AWSGPU_DeepLearning
 ===================
 
-Code to setup AWS GPU instance to run Daniel Nouri's Facial Keypoints competition
+Code to setup AWS GPU instance to run Daniel Nouri's Facial Keypoints competition convoluted neural network code
 
 
 1. start a AWS GPU instance
