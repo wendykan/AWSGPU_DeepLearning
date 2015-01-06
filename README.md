@@ -14,4 +14,4 @@ Code to setup AWS GPU instance to run Daniel Nouri's Facial Keypoints competitio
 5. ```vi cookies.txt```
   - Then copy-paste kaggle cookie into this file
 6. ```./AWSGPU_DeepLearning/setup.sh ```
-7. ```python AWSGPU_DeepLearning/kfkd.py```
+7. ```python AWSGPU_DeepLearning/kfkd.py``` or just do ```ipython``` to run code line by line
