@@ -59,7 +59,7 @@ net1 = NeuralNet(
     output_num_units=30,  # 30 target values
 
     # optimization method:
-    upate=nesterov_momentum,
+    update=nesterov_momentum,
     update_learning_rate=0.01,
     update_momentum=0.9,
 
