@@ -5,6 +5,9 @@ import numpy as np
 from pandas.io.parsers import read_csv
 from sklearn.utils import shuffle
 
+# Implicit import needed in newer theano versions
+# https://groups.google.com/forum/#!msg/lasagne-users/gEtFrC8mkms/0oNCDbSKbTkJ
+import lasagne.layers.cuda_convnet
 
 FTRAIN = '~/data/training.csv'
 FTEST = '~/data/test.csv'
